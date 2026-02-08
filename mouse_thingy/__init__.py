@@ -1,0 +1,1 @@
+"""Mouse Thingy package."""

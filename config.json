@@ -1,0 +1,52 @@
+{
+  "delay_between_actions_range": [1, 5],
+  "repeat": true,
+  "actions": [
+    {
+      "type": "click",
+      "coordinates": [829, 752],
+      "button": "left"
+    },
+    {
+      "type": "click",
+      "coordinates": [3232, 1426],
+      "button": "left"
+    },
+    {
+      "type": "keypress",
+      "key": "a",
+      "press_down_duration": 0.5
+    },
+    {
+      "type": "keypress",
+      "key": "b",
+      "press_down_duration": 0.5
+    },
+    {
+      "type": "keypress",
+      "key": "c",
+      "press_down_duration": 0.5
+    },
+    {
+      "type": "click",
+      "coordinates": [966, 608],
+      "button": "left"
+    },
+    {
+      "type": "scroll",
+      "coordinates": [966, 608],
+      "scroll_config": {
+        "direction": "up",
+        "scroll_length": 10000
+      }
+    },
+    {
+      "type": "scroll",
+      "coordinates": [966, 608],
+      "scroll_config": {
+        "direction": "down",
+        "scroll_length": 20000
+      }
+    }
+  ]
+}
