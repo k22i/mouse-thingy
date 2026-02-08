@@ -1,15 +1,15 @@
 {
-  "delay_between_actions_range": [1, 5],
+  "delay_between_actions_range": [1, 10],
   "repeat": true,
   "actions": [
     {
       "type": "click",
-      "coordinates": [829, 752],
+      "coordinates": [1257, 144],
       "button": "left"
     },
     {
       "type": "click",
-      "coordinates": [3232, 1426],
+      "coordinates": [1325, 498],
       "button": "left"
     },
     {
@@ -29,15 +29,15 @@
     },
     {
       "type": "click",
-      "coordinates": [966, 608],
+      "coordinates": [1381, 658],
       "button": "left"
     },
     {
       "type": "scroll",
-      "coordinates": [966, 608],
+      "coordinates": [500, 500],
       "scroll_config": {
         "direction": "up",
-        "scroll_length": 10000
+        "scroll_length": 1000
       }
     },
     {
@@ -45,8 +45,9 @@
       "coordinates": [966, 608],
       "scroll_config": {
         "direction": "down",
-        "scroll_length": 20000
+        "scroll_length": 2000
       }
     }
   ]
 }
+
