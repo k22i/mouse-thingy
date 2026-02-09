@@ -4,12 +4,12 @@
   "actions": [
     {
       "type": "click",
-      "coordinates": [1257, 144],
+      "coordinates": [149, 99],
       "button": "left"
     },
     {
       "type": "click",
-      "coordinates": [1325, 498],
+      "coordinates": [1507, 739],
       "button": "left"
     },
     {
@@ -18,23 +18,18 @@
       "press_down_duration": 0.5
     },
     {
-      "type": "keypress",
-      "key": "b",
-      "press_down_duration": 0.5
-    },
-    {
-      "type": "keypress",
-      "key": "c",
-      "press_down_duration": 0.5
+      "type": "click",
+      "coordinates": [0, 651],
+      "button": "right"
     },
     {
       "type": "click",
-      "coordinates": [1381, 658],
+      "coordinates": [921, 28],
       "button": "left"
     },
     {
       "type": "scroll",
-      "coordinates": [500, 500],
+      "coordinates": [921, 28],
       "scroll_config": {
         "direction": "up",
         "scroll_length": 1000
@@ -42,7 +37,7 @@
     },
     {
       "type": "scroll",
-      "coordinates": [966, 608],
+      "coordinates": [921, 28],
       "scroll_config": {
         "direction": "down",
         "scroll_length": 2000
